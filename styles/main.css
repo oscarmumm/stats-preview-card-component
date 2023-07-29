@@ -99,8 +99,16 @@ html {
     margin-top: 0.25rem;
 }
 
+.img-div {
+    background: #7524A0;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+
 .img-div img {
     width: 100%;
+    opacity: .5;
+    filter: contrast(1.5) brightness(.5);
 }
 
 .img-mobile {
@@ -150,6 +158,9 @@ footer {
     .img-div,
     .information-div {
         width: 50%;
+    }
+    .img-div {
+        border-radius: 0 10px 10px 0;
     }
     .information-div {
       padding: 2.5rem 5rem 2.5rem 2.5rem;
